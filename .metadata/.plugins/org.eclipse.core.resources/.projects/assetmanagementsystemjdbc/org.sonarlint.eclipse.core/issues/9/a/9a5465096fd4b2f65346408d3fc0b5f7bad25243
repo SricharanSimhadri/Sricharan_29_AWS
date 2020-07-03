@@ -1,0 +1,13 @@
+
+µ
+java:S1598"ùThis file "MainController.java" should be located in "com\jsfeb\assetmanagementsystem\controller" directory, not in "C:\Users\YasasviSricharan\Asset Management\assetmanagementsystemjdbc\src\main\java\com\jfsfeb\assetmanagementsystemjdbc\controller".(§äĞ†ûÿÿÿÿ8šŠ­Ñ°.H‹$RCRITICALZ
+CODE_SMELL
+‡
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ÌƒÚü8šŠ­Ñ°.HŒ$RMINORZ
+CODE_SMELL
+q
+java:S1854	"9Remove this useless assignment to local variable "login".(Â—Ğáşÿÿÿÿ8šŠ­Ñ°.H$RMAJORZ
+CODE_SMELL
+b
+java:S1481	"*Remove this unused "login" local variable.(Â—Ğáşÿÿÿÿ8šŠ­Ñ°.H$RMINORZ
+CODE_SMELL

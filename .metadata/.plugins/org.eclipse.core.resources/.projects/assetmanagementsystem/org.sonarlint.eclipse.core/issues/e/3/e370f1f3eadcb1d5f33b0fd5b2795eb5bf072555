@@ -1,0 +1,25 @@
+
+^
+java:S1444"0Make this "public static assetBeans" field final(š€zHßRMINORZVULNERABILITY
+
+java:S1104"UMake userBeans a static final constant or non-public and provide accessors if needed.(ûï‹‰HàRMINORZ
+CODE_SMELL
+t
+java:S1192"FDefine a constant instead of duplicating this literal "Chair" 3 times.(ˆ¼üTHáRCRITICALZ
+CODE_SMELL
+‰
+java:S1104"XMake requestBeans a static final constant or non-public and provide accessors if needed.(âè—ùÿÿÿÿHâRMINORZ
+CODE_SMELL
+Q
+java:S2386"Make this member "protected".(âè—ùÿÿÿÿHãRMINORZVULNERABILITY
+^
+java:S1444"/Make this "public static userBeans" field final(ûï‹‰HäRMINORZVULNERABILITY
+f
+java:S1444"2Make this "public static requestBeans" field final(âè—ùÿÿÿÿHåRMINORZVULNERABILITY
+K
+java:S2386"Make this member "protected".(š€zHæRMINORZVULNERABILITY
+
+java:S1104"VMake assetBeans a static final constant or non-public and provide accessors if needed.(š€zHçRMINORZ
+CODE_SMELL
+L
+java:S2386"Make this member "protected".(ûï‹‰HèRMINORZVULNERABILITY

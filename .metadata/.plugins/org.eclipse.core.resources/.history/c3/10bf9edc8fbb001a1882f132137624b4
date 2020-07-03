@@ -1,0 +1,5 @@
+package com.jfsfeb.assetmanagementsystemjdbc.dto;
+
+public class UserInfoBeans {
+
+}

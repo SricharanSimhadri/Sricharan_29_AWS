@@ -1,0 +1,31 @@
+package com.capgemini.assetmanagementsystem.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.jsfeb.assetmanagementsystem.dto.AssetInfoBeans;
+import com.jsfeb.assetmanagementsystem.dto.RequestInfoBeans;
+import com.jsfeb.assetmanagementsystem.dto.UserInfoBeans;
+
+public class Repo {
+	
+	public static List<UserInfoBeans> userBeans = new ArrayList<UserInfoBeans>();
+	public static List<AssetInfoBeans> assetBeans = new ArrayList<AssetInfoBeans>();
+	public static List<RequestInfoBeans> requestBeans = new ArrayList<RequestInfoBeans>();
+	
+	public void addData() {
+		
+		userBeans.add(new UserInfoBeans(11,"Madhuri","madhu@gmail.com","Renusree@1234","user"));
+		userBeans.add(new UserInfoBeans(31,"Madhuri","madhuri@gmail.com","Madhu@1234","admin"));
+			
+		assetBeans.add(new AssetInfoBeans(50,"Chair","RoyalOak","OfficeChairs",3000.0));
+		assetBeans.add(new AssetInfoBeans(60,"Table","Aprodz","OfficeTable",25000.0));
+		assetBeans.add(new AssetInfoBeans(70,"File","Banggood","File Box",900.0));
+		
+		requestBeans.add(new RequestInfoBeans(11,"Chair",34));
+		
+		requestBeans.add(new RequestInfoBeans(11,"Madhuri",50,"Chair",5,"sent"));
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+1592851172899	Delete element
+1592851263846	Delete element
+1592851394974	Delete element
+1592851763079	Delete element
+1592852092264	Delete element
+1593232951041	Rename package 'com.capgemini.assetmanagementsystem'
+1593232974661	Rename package 'com.capgemini.assetmanagementsystem.controller'
+1593232992491	Rename package 'com.capgemini.assetmanagementsystem.dao'
+1593233012222	Rename package 'com.capgemini.assetmanagementsystem.dto'
+1593233030222	Rename package 'com.capgemini.assetmanagementsystem.exception'
+1593233049805	Rename package 'com.capgemini.assetmanagementsystem.repository'
+1593233068861	Rename package 'com.capgemini.assetmanagementsystem.services'
+1593233086272	Rename package 'com.capgemini.assetmanagementsystem.validations'

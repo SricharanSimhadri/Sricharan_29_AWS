@@ -1,0 +1,65 @@
+
+i	java:S1066"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+g
+java:S2440"/Remove this instantiation of "AdminController".(øÉØŒıÿÿÿÿ8õìÿô¯.HôRMAJORZ
+CODE_SMELL
+i	java:S106{"9Replace this use of System.out or System.err by a logger.(²ÒâùÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+i	java:S106f"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH€RMAJORZ
+CODE_SMELL
+j	java:S106Í"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿHñRMAJORZ
+CODE_SMELL
+e	java:S106‡"9Replace this use of System.out or System.err by a logger.(ÆÄÀçHûRMAJORZ
+CODE_SMELL
+d	java:S1062"9Replace this use of System.out or System.err by a logger.(¹”é¹HŒRMAJORZ
+CODE_SMELL
+v
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ùé H‹RMINORZ
+CODE_SMELL
+O	java:S131""Add a default case to this switch.(ùé H†RCRITICALZ
+CODE_SMELL
+e	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÀŒµòHüRMAJORZ
+CODE_SMELL
+e	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ˆ¦İHöRMAJORZ
+CODE_SMELL
+i	java:S106|"9Replace this use of System.out or System.err by a logger.(³àŸÿÿÿÿÿHøRMAJORZ
+CODE_SMELL
+i	java:S106!"9Replace this use of System.out or System.err by a logger.(èü¾ôûÿÿÿÿHòRMAJORZ
+CODE_SMELL
+€
+java:S3776m"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(³¼Ç}HúRCRITICALZ
+CODE_SMELL
+i	java:S106V"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿHRMAJORZ
+CODE_SMELL
+
+java:S1104"PMake scan a static final constant or non-public and provide accessors if needed.(ÇèğÊùÿÿÿÿHRMINORZ
+CODE_SMELL
+e	java:S106º"9Replace this use of System.out or System.err by a logger.(ÆÄÀçHùRMAJORZ
+CODE_SMELL
+e	java:S106Ç"9Replace this use of System.out or System.err by a logger.(İèœÈHóRMAJORZ
+CODE_SMELL
+m
+java:S1118":Add a private constructor to hide the implicit public one.(›—¦ò8õìÿô¯.HõRMAJORZ
+CODE_SMELL
+j	java:S106®"9Replace this use of System.out or System.err by a logger.(»‘»²øÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+f
+java:S2440".Remove this instantiation of "UserController".(äÔ¼Ìıÿÿÿÿ8õìÿô¯.HŠRMAJORZ
+CODE_SMELL
+d	java:S106¡"9Replace this use of System.out or System.err by a logger.(±í´dHÿRMAJORZ
+CODE_SMELL
+^
+java:S1444"*Make this "public static scan" field final(ÇèğÊùÿÿÿÿHƒRMINORZVULNERABILITY
+e	java:S106²"9Replace this use of System.out or System.err by a logger.(ÙÍÎH‚RMAJORZ
+CODE_SMELL
+e	java:S106¶"9Replace this use of System.out or System.err by a logger.(„ä¬«H…RMAJORZ
+CODE_SMELL
+j	java:S106§"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH„RMAJORZ
+CODE_SMELL
+e	java:S106¾"9Replace this use of System.out or System.err by a logger.(ÀŒµòHıRMAJORZ
+CODE_SMELL
+i	java:S106z"9Replace this use of System.out or System.err by a logger.(çÃÔ”üÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+i	java:S106F"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿHşRMAJORZ
+CODE_SMELL

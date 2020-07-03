@@ -1,0 +1,135 @@
+package com.jsfeb.assetmanagementsystem.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.capgemini.assetmanagementsystem.dto.AssetInfoBeans;
+import com.capgemini.assetmanagementsystem.dto.RequestInfoBeans;
+import com.capgemini.assetmanagementsystem.exception.AMException;
+import com.capgemini.assetmanagementsystem.repository.Repo;
+
+public class AdminImpleDAO implements AdminDAO {
+
+	
+	public boolean addAsset(AssetInfoBeans asset) {
+		
+		for (AssetInfoBeans beans : Repo.assetBeans) {
+		
+			if (beans.getAssetId() == asset.getAssetId()) {
+				throw new AMException("Can't add asset, beacause asset id is already present");
+			}
+		}
+		
+		Repo.assetBeans.add(asset);
+		return true;
+	}
+
+	
+	public boolean deleteAsset(int id) {
+		
+		for (AssetInfoBeans beans : Repo.assetBeans) {
+		
+			if (beans.getAssetId() == id) {
+				Repo.assetBeans.remove(beans);
+				return true;
+			}
+		
+		}
+		throw new AMException("Can't delete , No asset found");
+	
+	}
+
+	
+	public ArrayList<AssetInfoBeans> searchAsset(int id) {
+
+		ArrayList<AssetInfoBeans> searchAsset = new ArrayList<AssetInfoBeans>();
+		
+		for (AssetInfoBeans beans : Repo.assetBeans) {
+		
+			if (beans.getAssetId() == id) {
+				searchAsset.add(beans);
+			}
+		
+		}
+	
+		if (searchAsset.size() == 0) {
+		
+			throw new AMException("Assets not found");
+		}
+		
+		return searchAsset;
+
+	}
+
+	
+	public List<AssetInfoBeans> getAllAssets() {
+	
+		List<AssetInfoBeans> allAssets = new ArrayList<AssetInfoBeans>();
+		
+		for (AssetInfoBeans assetBean : Repo.assetBeans) {
+		
+			assetBean.getAssetId();
+			assetBean.getAssetName();
+			assetBean.getCategory();
+			assetBean.getCompanyName();
+			assetBean.getPrice();
+
+			allAssets.add(assetBean);
+		
+		}
+		
+		return allAssets;
+	}
+
+	
+	public List<RequestInfoBeans> requestDetails() {
+		
+		List<RequestInfoBeans> requests = new ArrayList<RequestInfoBeans>();
+		
+		for (RequestInfoBeans requestBeans : Repo.requestBeans) {
+		
+			requestBeans.getUserId();
+			requestBeans.getUserName();
+			requestBeans.getAssetId();
+			requestBeans.getAssetName();
+			requestBeans.getStatus();
+
+			requests.add(requestBeans);
+		
+		}
+		
+		return requests;
+	}
+
+	
+	public boolean acceptRequest(int id, String name) {
+		
+		RequestInfoBeans requestInfo = new RequestInfoBeans();
+		
+		for (RequestInfoBeans accept : Repo.requestBeans) {
+		
+			if (id == accept.getUserId()) {
+			
+				for (AssetInfoBeans assetBean : Repo.assetBeans) {
+				
+					if (assetBean.getAssetName().contentEquals(name)) {
+					
+						requestInfo.setUserId(id);
+						requestInfo.setAssetName(name);
+						String status = "true";
+						requestInfo.setStatus(status);
+						Repo.requestBeans.add(requestInfo);
+						return true;
+					
+					}
+				
+				}
+			
+			}
+		
+		}
+
+		throw new AMException("Accept is not valid");
+	}
+
+}

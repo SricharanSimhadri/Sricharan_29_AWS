@@ -1,0 +1,62 @@
+package com.capgemini.assetmanagementsystem.services;
+
+import java.util.List;
+
+import com.capgemini.assetmanagementsystem.dto.RequestInfoBeans;
+import com.capgemini.assetmanagementsystem.dto.UserInfoBeans;
+import com.capgemini.assetmanagementsystem.exception.AMException;
+import com.jsfeb.assetmanagementsystem.dao.UserDAO;
+import com.jsfeb.assetmanagementsystem.dao.UserImpleDAO;
+
+public class UserServicesImple implements UserServices {
+
+	private UserDAO dao = new UserImpleDAO();
+
+	
+	public boolean registerUser(UserInfoBeans userBean) {
+		if (userBean != null) {
+			return dao.registerUser(userBean);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public boolean loginUser(String email, String password, String role) {
+		if ((email != null) && (password != null) && (role != null)) {
+			return dao.loginUser(email, password, role);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	
+	public boolean requestAsset(int userId, String assetName, int quantity) {
+		if ((userId > 0) && (assetName != null) && (quantity > 0)) {
+			return dao.requestAsset(userId, assetName, quantity);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public boolean removeAsset(String name) {
+		if (name != null) {
+			return dao.removeAsset(name);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public List<RequestInfoBeans> viewAllAssets(int id) {
+		return dao.viewAllAssets(id);
+	}
+
+	
+	public List<UserInfoBeans> viewDetails() {
+		return dao.viewDetails();
+	}
+
+}

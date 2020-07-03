@@ -1,0 +1,58 @@
+package com.capgemini.assetmanagementsystem.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.jsfeb.assetmanagementsystem.dao.AdminDAO;
+import com.jsfeb.assetmanagementsystem.dao.AdminImpleDAO;
+import com.jsfeb.assetmanagementsystem.dto.AssetInfoBeans;
+import com.jsfeb.assetmanagementsystem.dto.RequestInfoBeans;
+import com.jsfeb.assetmanagementsystem.exception.AMException;
+
+public class AdminServicesImple implements AdminServices {
+
+	private AdminDAO dao = new AdminImpleDAO();
+
+	
+	public boolean addAsset(AssetInfoBeans asset) {
+		if (asset != null) {
+			return dao.addAsset(asset);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public boolean deleteAsset(int id) {
+		if (id > 0) {
+			return dao.deleteAsset(id);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public ArrayList<AssetInfoBeans> searchAsset(int id) {
+		if (id > 0) {
+			return dao.searchAsset(id);
+		} else {
+			throw new AMException("Enter the correct value");
+		}
+	}
+
+	
+	public List<AssetInfoBeans> getAllAssets() {
+		return dao.getAllAssets();
+	}
+
+	
+	public List<RequestInfoBeans> requestDetails() {
+		return dao.requestDetails();
+	}
+
+	
+	public boolean acceptRequest(int id, String name) {
+		return dao.acceptRequest(id,name);
+	}
+
+}

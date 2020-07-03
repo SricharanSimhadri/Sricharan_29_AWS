@@ -1,0 +1,26 @@
+
+²
+java:S1130
+"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(ĞÛçĞøÿÿÿÿHØRMINORZ
+CODE_SMELL
+²
+java:S1130"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(Ï±êîúÿÿÿÿHÙRMINORZ
+CODE_SMELL
+²
+java:S1130&"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(•»’­üÿÿÿÿHÚRMINORZ
+CODE_SMELL
+²
+java:S11305"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(¾¶¸îıÿÿÿÿHÛRMINORZ
+CODE_SMELL
+­
+java:S1130F"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(ì¦ĞÒHÜRMINORZ
+CODE_SMELL
+­
+java:S1130T"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(µ•¨HİRMINORZ
+CODE_SMELL
+­
+java:S1130a"€Remove the declaration of thrown exception 'com.jsfeb.assetmanagementsystem.exception.AMException' which is a runtime exception.(ú÷ÿüHŞRMINORZ
+CODE_SMELL
+m
+java:S1126f"AReplace this if-then-else statement by a single return statement.(âúĞÔHßRMINORZ
+CODE_SMELL

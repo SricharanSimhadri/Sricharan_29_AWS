@@ -1,0 +1,10 @@
+
+q
+java:S1854"9Remove this useless assignment to local variable "login".(Â—Ğáşÿÿÿÿ8ÑÈÌ°.H¯(RMAJORZ
+CODE_SMELL
+b
+java:S1481"*Remove this unused "login" local variable.(Â—Ğáşÿÿÿÿ8ÑÈÌ°.H°(RMINORZ
+CODE_SMELL
+g
+java:S2440"/Remove this instantiation of "LoginController".(Â—Ğáşÿÿÿÿ8ĞšÉ°.H±(RMAJORZ
+CODE_SMELL

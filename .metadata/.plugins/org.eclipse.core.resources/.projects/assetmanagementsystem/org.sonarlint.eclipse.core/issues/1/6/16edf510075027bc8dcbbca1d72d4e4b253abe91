@@ -1,0 +1,91 @@
+
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(èü¾ôûÿÿÿÿH$RMAJORZ
+CODE_SMELL
+j	java:S106³"9Replace this use of System.out or System.err by a logger.(ìÂëÇøÿÿÿÿH$RMAJORZ
+CODE_SMELL
+g
+java:S2440"/Remove this instantiation of "LoginController".(ğæ«…úÿÿÿÿ8Äğ’ı¯.H‘$RMAJORZ
+CODE_SMELL
+e	java:S106‹"9Replace this use of System.out or System.err by a logger.(„ÎÅ÷H’$RMAJORZ
+CODE_SMELL
+e	java:S106à"9Replace this use of System.out or System.err by a logger.(Î”ıH“$RMAJORZ
+CODE_SMELL
+e	java:S106’"9Replace this use of System.out or System.err by a logger.(ï“–ëH”$RMAJORZ
+CODE_SMELL
+j	java:S106¡"9Replace this use of System.out or System.err by a logger.(ù®‚ÈúÿÿÿÿH•$RMAJORZ
+CODE_SMELL
+i	java:S106["9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH–$RMAJORZ
+CODE_SMELL
+e	java:S106±"9Replace this use of System.out or System.err by a logger.(Í³ãáH—$RMAJORZ
+CODE_SMELL
+e	java:S106ù"9Replace this use of System.out or System.err by a logger.(¨ƒºH˜$RMAJORZ
+CODE_SMELL
+e	java:S106Ã"9Replace this use of System.out or System.err by a logger.(±ĞÒùH™$RMAJORZ
+CODE_SMELL
+
+java:S1104"PMake scan a static final constant or non-public and provide accessors if needed.(ÇèğÊùÿÿÿÿHš$RMINORZ
+CODE_SMELL
+j	java:S106´"9Replace this use of System.out or System.err by a logger.(’îÜèüÿÿÿÿH›$RMAJORZ
+CODE_SMELL
+j	java:S106µ"9Replace this use of System.out or System.err by a logger.(üğŒØùÿÿÿÿHœ$RMAJORZ
+CODE_SMELL
+j	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ª–×úÿÿÿÿH$RMAJORZ
+CODE_SMELL
+e	java:S106Ä"9Replace this use of System.out or System.err by a logger.(ÆŞ´½H$RMAJORZ
+CODE_SMELL
+m
+java:S1118":Add a private constructor to hide the implicit public one.(€÷Ôá8ûÇÿô¯.HŸ$RMAJORZ
+CODE_SMELL
+i	java:S106;"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH $RMAJORZ
+CODE_SMELL
+i	java:S106{"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH¡$RMAJORZ
+CODE_SMELL
+d	java:S106ì"9Replace this use of System.out or System.err by a logger.(øüøH¢$RMAJORZ
+CODE_SMELL
+j	java:S106¦"9Replace this use of System.out or System.err by a logger.(±•œˆúÿÿÿÿH£$RMAJORZ
+CODE_SMELL
+i	java:S106K"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH¤$RMAJORZ
+CODE_SMELL
+e	java:S106™"9Replace this use of System.out or System.err by a logger.(õ¸ÿH¥$RMAJORZ
+CODE_SMELL
+j	java:S106²"9Replace this use of System.out or System.err by a logger.(¡‹ùÊúÿÿÿÿH¦$RMAJORZ
+CODE_SMELL
+d	java:S106Î"9Replace this use of System.out or System.err by a logger.(©Úú}H§$RMAJORZ
+CODE_SMELL
+j	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ùá‹ŞşÿÿÿÿH¨$RMAJORZ
+CODE_SMELL
+j	java:S106£"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH©$RMAJORZ
+CODE_SMELL
+j	java:S106˜"9Replace this use of System.out or System.err by a logger.(·†Î²şÿÿÿÿHª$RMAJORZ
+CODE_SMELL
+e	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(“’²ÆH«$RMAJORZ
+CODE_SMELL
+e	java:S106‚"9Replace this use of System.out or System.err by a logger.(ÍÿáØH¬$RMAJORZ
+CODE_SMELL
+‚
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(“çø‘H­$RCRITICALZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(»‘»²øÿÿÿÿH®$RMAJORZ
+CODE_SMELL
+j	java:S106Ü"9Replace this use of System.out or System.err by a logger.(ÛÏø«ıÿÿÿÿH¯$RMAJORZ
+CODE_SMELL
+j	java:S106‡"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH°$RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH±$RMAJORZ
+CODE_SMELL
+d	java:S1067"9Replace this use of System.out or System.err by a logger.(¹”é¹H²$RMAJORZ
+CODE_SMELL
+e	java:S106½"9Replace this use of System.out or System.err by a logger.(ï™ªÇH³$RMAJORZ
+CODE_SMELL
+e	java:S106Å"9Replace this use of System.out or System.err by a logger.(Ø¿ŞH´$RMAJORZ
+CODE_SMELL
+j	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(§Ë€¼ÿÿÿÿÿHµ$RMAJORZ
+CODE_SMELL
+e	java:S106Æ"9Replace this use of System.out or System.err by a logger.(ñÀ¿®H¶$RMAJORZ
+CODE_SMELL
+^
+java:S1444"*Make this "public static scan" field final(ÇèğÊùÿÿÿÿH·$RMINORZVULNERABILITY
+j	java:S106ò"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH¸$RMAJORZ
+CODE_SMELL
+i	java:S106k"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿH¹$RMAJORZ
+CODE_SMELL
